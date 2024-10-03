@@ -11,13 +11,13 @@ img {
     height: 300px;
 }
 
-p {
-    color: red;
+#third p {
+    color: green;
 }
 
-#third > span {
+ */ #third > span {
     visibility: hidden;
-}
+ } */
 
 .right p {
     display: none;
