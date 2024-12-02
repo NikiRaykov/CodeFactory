@@ -1,0 +1,10 @@
+div {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+p {
+    border: 2px solid darkorange;
+    padding: .5rem;
+}

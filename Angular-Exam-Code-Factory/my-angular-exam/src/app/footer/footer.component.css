@@ -1,0 +1,4 @@
+footer {
+    margin-top: auto; /* Ensures it moves to the bottom if space is available */
+    position: sticky;
+}

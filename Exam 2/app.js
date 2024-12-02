@@ -126,7 +126,7 @@ function changeColorOfPriorityButton(button, priorityLevel) {
         button.className = 'myPriorityBtn btn btn-danger';
     }
     
-    
+
     button.innerHTML = `
         <i class="bi bi-exclamation-triangle"></i> 
         Priority level: ${priorityLevel}
@@ -135,7 +135,10 @@ function changeColorOfPriorityButton(button, priorityLevel) {
 
 function sortTaskByPriority() {
     tasks.sort((a, b) => a.priorityLevel - b.priorityLevel);
+    
     loopThroughTasks();
+
+    changeColorOfPriorityButton(button, priorityLevel);
 }
 
 document.getElementById('sortButton').addEventListener('click', sortTaskByPriority);
